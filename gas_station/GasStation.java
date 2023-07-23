@@ -19,18 +19,18 @@ class GasStation{
     }
     public static int isPossible(int []gas, int []cost){
         int n = gas.length;
-        int total=0, avail=0, index=0;
+        int total=0, avail=0, in=0;
         for(int i=0;i<n;i++){
             total += gas[i]-cost[i];
             avail += gas[i] - cost[i];
             if(avail<0){
                 avail=0;
-                index = i+1;
+                in = i+1;
             }
         }
         if(total<0){
             return -1;
         }
-        return index;
+        return in;
     }
 }
