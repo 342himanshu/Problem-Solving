@@ -1,0 +1,22 @@
+generate n numbers in ascending order using 2 integers a, b.
+
+Ex: 1
+
+Input:
+a = 3
+b = 4
+n = 10
+
+Output: 
+[3, 4, 33, 34, 43, 44, 333, 334, 343, 344]
+
+
+Ex: 2
+
+Input:
+a = 4
+b = 4
+n = 5
+
+Output: 
+[4, 44, 444, 4444, 44444]
