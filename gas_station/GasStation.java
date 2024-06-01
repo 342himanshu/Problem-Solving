@@ -7,6 +7,7 @@ class GasStation{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int gas[] = new int[n];
+        
         int cost[] = new int[n];
 
         for(int i=0;i<n;i++)
