@@ -10,6 +10,7 @@ class ClimbingStair{
     }
 
     public static int climbStairs(int n) {
+        
         // //method 1 using recursion
 
         // int [] ans = new int[n+1];
